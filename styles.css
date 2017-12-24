@@ -18,7 +18,7 @@ a {
   color: #999;
 }
 a:hover {
-  color: #00FFCE;
+  color: white;
 }
 
 /* Section Styles */
@@ -44,7 +44,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: #CCA5A8;
+    color: white;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -59,10 +59,10 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/rsz_hexagon-tile.jpg') no-repeat top center ;
+  background: url('images/colour-pattern.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
-  padding-top: 60px;
+  padding-top: 30px;
 }
 header {
   line-height: 1.5;
@@ -72,23 +72,34 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid #CCA5A8;
+  border: 3px solid grey;
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.8) rotate(180deg);
 }
 .tag {
-  background-color: #CCA5A8;
-  color: #148CCC;
+  background-color: grey;
+  color: black;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 }
+.experience-title {
+  background-color: grey;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 30px auto;
+}
 .location {
-  background-color: #148CCC;
-  color: #CCA5A8;
+  background-color: #58757A;
+  color: black;
+}
+.photo {
+  max-width: 425px;
 }
 .card {
   margin: 30px;
