@@ -92,10 +92,10 @@ header .profile-image:hover {
   padding: 10px;
   border-radius: 5px;
   display: table;
-  margin: 30px auto;
+  margin: 200px auto;
 }
 .location {
-  background-color: #58757A;
+  background-color: grey;
   color: black;
 }
 .photo {
